@@ -14,5 +14,4 @@ class Fuzzer:
         self.fuzzer = EvenFasterGrammarFuzzer(self.grammar)
 
     def fuzz_one_input(self) -> str:
-        # This function should be implemented, but the signature may not change.
         return self.fuzzer.fuzz()
