@@ -1,8 +1,3 @@
-# Implement your grammar here in the `grammar` variable.
-# You may define additional functions, e.g. for generators.
-# You may not import any other modules written by yourself.
-# That is, your entire implementation must be in `grammar.py`
-# and `fuzzer.py`.
 
 grammar = {"<start>": ["<create_table>","<update_table>","<select>","<insert>","<alter_table>","<drop_table>","<create_index>","<drop_index>","<delete>","<create_trigger>","<drop_trigger>","<create_view>","<drop_view>","<attach_database>","<detach_database>","<analyze>","<begin_transaction>","<commit_transaction>","<rollback_transaction>","<create_virtual_table>","<pragma>","<built_in_aggregate>","<vacuum>;","<explain>","<indexed_by>","<savepoint>","<release>","<rollback>","<reindex>","<select_date_time>","<select_core_func>"],
            
